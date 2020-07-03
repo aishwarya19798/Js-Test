@@ -84,3 +84,32 @@ body{
     background-color: rgb(233, 231, 231);
     font-size: 18px;
 }
+#over{
+    display:none;
+}
+#over{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#over h2{
+    margin: 10px;
+    font-size: 40px;
+}
+#over h3{
+    margin:50px 0 20px 0;
+}
+#next{
+    padding: 10px;
+    color: lavender ;
+    background-color: rgb(32, 32, 32);;
+    border: 1px solid snow;
+    font-weight: 600;
+    font-size: 15px;
+}
+#next:hover{
+    border: 3px solid orange;
+    box-shadow: 5px 5px 5px rgb(78, 66, 70);
+}
