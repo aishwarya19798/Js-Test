@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill it up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+
+        <div id="home">
+            <h1>Play for JavaScript</h1>
+            <p>Test your knowledge...</p>
+            <button class="play" id="play">Let's Play</button>
+        </div>
+
+        <div id="content">
+            <h2 id="rule">You have 3 attempts to move forward <br> else game over</h2>
+
+            <div id="container">
+                <h1 id="counter">3</h1>
+                <h2 id="question">question</h2>
+                <input type="text" id="inp" autofocus>
+                <p id="showAns"></p>
+                <button id="next">Next</button>
+            </div>
+
+        </div>
+
+        <div id="over">
+            <h3 id="points">Your Score:0</h3>
+            <h2>Thank you for playing</h2>
+            <h3>Want to play again?</h3>
+            <button class="play" id="replay">Replay</button>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
